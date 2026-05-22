@@ -119,44 +119,44 @@ A curated list of awesome datasets, papers, code repositories, TinyML projects, 
 
 ### Official / Author Repositories
 
-- [jpnm561/HAR-UP](https://github.com/jpnm561/HAR-UP) - Official UP-Fall Python pipeline for database download, feature extraction, feature selection, cross-validation, and traditional ML training.
-- [heeryoncho/SVD_applied_fall_detection](https://github.com/heeryoncho/SVD_applied_fall_detection) - Author code for SVD + 1D-CNN fall detection on SisFall, UMAFall, and UniMiB.
-- [IKKIM00/Fall_Detection_using_multihorizon_forecasting](https://github.com/IKKIM00/Fall_Detection_using_multihorizon_forecasting) - Original code for multi-horizon fall forecasting with TFT, 1D-CNN, and LSTM on SmartFall, Notch, DLR, and MobiAct.
-- [brianchi0607/PREFALLKD](https://github.com/brianchi0607/PREFALLKD-PRE-IMPACT-FALL-DETECTION-VIA-CNN-VIT-KNOWLEDGE-DISTILLATION) - PyTorch implementation of CNN-ViT knowledge distillation for pre-impact fall detection on KFall.
-- [nhoyh/HR_IMU_falldetection_dataset](https://github.com/nhoyh/HR_IMU_falldetection_dataset) - HR + IMU wrist dataset repository for user-adaptive fall detection.
-- [joaojtmarques/WEDA-FALL](https://github.com/joaojtmarques/WEDA-FALL) - Official WEDA-FALL dataset repository.
-- [dapowan/LIMU-BERT-Public](https://github.com/dapowan/LIMU-BERT-Public) - Public LIMU-BERT implementation for self-supervised IMU representation learning.
+- [jpnm561/HAR-UP](https://github.com/jpnm561/HAR-UP) - Official UP-Fall Python pipeline for database download, feature extraction, feature selection, cross-validation, and traditional ML training. ![GitHub stars](https://img.shields.io/github/stars/jpnm561/HAR-UP.svg)
+- [heeryoncho/SVD_applied_fall_detection](https://github.com/heeryoncho/SVD_applied_fall_detection) - Author code for SVD + 1D-CNN fall detection on SisFall, UMAFall, and UniMiB. ![GitHub stars](https://img.shields.io/github/stars/heeryoncho/SVD_applied_fall_detection.svg)
+- [IKKIM00/Fall_Detection_using_multihorizon_forecasting](https://github.com/IKKIM00/Fall_Detection_using_multihorizon_forecasting) - Original code for multi-horizon fall forecasting with TFT, 1D-CNN, and LSTM on SmartFall, Notch, DLR, and MobiAct. ![GitHub stars](https://img.shields.io/github/stars/IKKIM00/Fall_Detection_using_multihorizon_forecasting.svg)
+- [brianchi0607/PREFALLKD](https://github.com/brianchi0607/PREFALLKD-PRE-IMPACT-FALL-DETECTION-VIA-CNN-VIT-KNOWLEDGE-DISTILLATION) - PyTorch implementation of CNN-ViT knowledge distillation for pre-impact fall detection on KFall. ![GitHub stars](https://img.shields.io/github/stars/brianchi0607/PREFALLKD-PRE-IMPACT-FALL-DETECTION-VIA-CNN-VIT-KNOWLEDGE-DISTILLATION.svg)
+- [nhoyh/HR_IMU_falldetection_dataset](https://github.com/nhoyh/HR_IMU_falldetection_dataset) - HR + IMU wrist dataset repository for user-adaptive fall detection. ![GitHub stars](https://img.shields.io/github/stars/nhoyh/HR_IMU_falldetection_dataset.svg)
+- [joaojtmarques/WEDA-FALL](https://github.com/joaojtmarques/WEDA-FALL) - Official WEDA-FALL dataset repository. ![GitHub stars](https://img.shields.io/github/stars/joaojtmarques/WEDA-FALL.svg)
+- [dapowan/LIMU-BERT-Public](https://github.com/dapowan/LIMU-BERT-Public) - Public LIMU-BERT implementation for self-supervised IMU representation learning. ![GitHub stars](https://img.shields.io/github/stars/dapowan/LIMU-BERT-Public.svg)
 
 ### Reproductions and Baselines
 
-- [aaqdas/FallDetection](https://github.com/aaqdas/FallDetection) - FallAllD-based 1D-CNN with TensorFlow Lite Micro conversion and Arduino Nano 33 BLE Sense deployment.
-- [mojtabaSefidi/Fall-Detection-System](https://github.com/mojtabaSefidi/Fall-Detection-System) - SisFall traditional ML and deep learning comparison.
-- [SpaceMinds/FDS](https://github.com/SpaceMinds/FDS) - Educational SisFall pipeline from thresholding to KNN, SVM, and neural networks.
-- [1saifj/Fall-Detection-System-SisFall-Dataset-Raspberry-Pi](https://github.com/1saifj/Fall-Detection-System-SisFall-Dataset-Raspberry-Pi) - SisFall LSTM/CNN-LSTM with Raspberry Pi deployment.
-- [OreoDu/sisFall](https://github.com/OreoDu/sisFall) - SisFall RNN/LSTM-style experiments.
-- [naomikgrant/SisFall_DL](https://github.com/naomikgrant/SisFall_DL) - Deep learning experiments for SisFall.
-- [chizhanyuefeng/FD-CNN](https://github.com/chizhanyuefeng/FD-CNN) - CNN-based fall detection implementation.
-- [chizhanyuefeng/Realtime-Fall-Detection-for-RNN](https://github.com/chizhanyuefeng/Realtime-Fall-Detection-for-RNN) - Real-time RNN fall detection reference.
-- [IKKIM00/fall-detection-and-predction-using-GRU-and-LSTM-with-Transfer-Learning](https://github.com/IKKIM00/fall-detection-and-predction-using-GRU-and-LSTM-with-Transfer-Learning) - SmartFall to MobiAct GRU/LSTM transfer-learning experiments.
-- [xushige/HAR-Dataset-Preprocess](https://github.com/xushige/HAR-Dataset-Preprocess) - PyTorch preprocessing and model infrastructure for UniMiB, PAMAP2, WISDM, UCI-HAR, USC-HAD, and other HAR datasets.
+- [aaqdas/FallDetection](https://github.com/aaqdas/FallDetection) - FallAllD-based 1D-CNN with TensorFlow Lite Micro conversion and Arduino Nano 33 BLE Sense deployment. ![GitHub stars](https://img.shields.io/github/stars/aaqdas/FallDetection.svg)
+- [mojtabaSefidi/Fall-Detection-System](https://github.com/mojtabaSefidi/Fall-Detection-System) - SisFall traditional ML and deep learning comparison. ![GitHub stars](https://img.shields.io/github/stars/mojtabaSefidi/Fall-Detection-System.svg)
+- [SpaceMinds/FDS](https://github.com/SpaceMinds/FDS) - Educational SisFall pipeline from thresholding to KNN, SVM, and neural networks. ![GitHub stars](https://img.shields.io/github/stars/SpaceMinds/FDS.svg)
+- [1saifj/Fall-Detection-System-SisFall-Dataset-Raspberry-Pi](https://github.com/1saifj/Fall-Detection-System-SisFall-Dataset-Raspberry-Pi) - SisFall LSTM/CNN-LSTM with Raspberry Pi deployment. ![GitHub stars](https://img.shields.io/github/stars/1saifj/Fall-Detection-System-SisFall-Dataset-Raspberry-Pi.svg)
+- [OreoDu/sisFall](https://github.com/OreoDu/sisFall) - SisFall RNN/LSTM-style experiments. ![GitHub stars](https://img.shields.io/github/stars/OreoDu/sisFall.svg)
+- [naomikgrant/SisFall_DL](https://github.com/naomikgrant/SisFall_DL) - Deep learning experiments for SisFall. ![GitHub stars](https://img.shields.io/github/stars/naomikgrant/SisFall_DL.svg)
+- [chizhanyuefeng/FD-CNN](https://github.com/chizhanyuefeng/FD-CNN) - CNN-based fall detection implementation. ![GitHub stars](https://img.shields.io/github/stars/chizhanyuefeng/FD-CNN.svg)
+- [chizhanyuefeng/Realtime-Fall-Detection-for-RNN](https://github.com/chizhanyuefeng/Realtime-Fall-Detection-for-RNN) - Real-time RNN fall detection reference. ![GitHub stars](https://img.shields.io/github/stars/chizhanyuefeng/Realtime-Fall-Detection-for-RNN.svg)
+- [IKKIM00/fall-detection-and-predction-using-GRU-and-LSTM-with-Transfer-Learning](https://github.com/IKKIM00/fall-detection-and-predction-using-GRU-and-LSTM-with-Transfer-Learning) - SmartFall to MobiAct GRU/LSTM transfer-learning experiments. ![GitHub stars](https://img.shields.io/github/stars/IKKIM00/fall-detection-and-predction-using-GRU-and-LSTM-with-Transfer-Learning.svg)
+- [xushige/HAR-Dataset-Preprocess](https://github.com/xushige/HAR-Dataset-Preprocess) - PyTorch preprocessing and model infrastructure for UniMiB, PAMAP2, WISDM, UCI-HAR, USC-HAD, and other HAR datasets. ![GitHub stars](https://img.shields.io/github/stars/xushige/HAR-Dataset-Preprocess.svg)
 
 ### Embedded and TinyML
 
-- [baljo/fall_detection](https://github.com/baljo/fall_detection) - Edge Impulse / Nicla Sense ME fall-detection reference project.
-- [NathanielFelleke/TinyML-Fall-Detection](https://github.com/NathanielFelleke/TinyML-Fall-Detection) - TinyML fall detection project with data collection, training, and embedded inference pieces.
-- [STMicroelectronics/st-mems-machine-learning-core](https://github.com/STMicroelectronics/st-mems-machine-learning-core) - ST MEMS Machine Learning Core examples and tooling.
-- [harrkout/Machine_Learning_Core_STM32WL55](https://github.com/harrkout/Machine_Learning_Core_STM32WL55) - STM32WL55 + LSM6DSOX MLC reference project.
-- [xiaoweiweiyaya/ESP32_FallDetection](https://github.com/xiaoweiweiyaya/ESP32_FallDetection) - ESP32 fall-detection project.
-- [Kartik9250/Fall_detection](https://github.com/Kartik9250/Fall_detection) - Arduino/MPU-style threshold fall detection.
-- [geoseiden/fall-detection-blynk](https://github.com/geoseiden/fall-detection-blynk) - IoT fall detection with Blynk integration.
-- [tensorflow/tflite-micro](https://github.com/tensorflow/tflite-micro) - TensorFlow Lite Micro; `magic_wand` is a useful IMU template for MCU deployment.
+- [baljo/fall_detection](https://github.com/baljo/fall_detection) - Edge Impulse / Nicla Sense ME fall-detection reference project. ![GitHub stars](https://img.shields.io/github/stars/baljo/fall_detection.svg)
+- [NathanielFelleke/TinyML-Fall-Detection](https://github.com/NathanielFelleke/TinyML-Fall-Detection) - TinyML fall detection project with data collection, training, and embedded inference pieces. ![GitHub stars](https://img.shields.io/github/stars/NathanielFelleke/TinyML-Fall-Detection.svg)
+- [STMicroelectronics/st-mems-machine-learning-core](https://github.com/STMicroelectronics/st-mems-machine-learning-core) - ST MEMS Machine Learning Core examples and tooling. ![GitHub stars](https://img.shields.io/github/stars/STMicroelectronics/st-mems-machine-learning-core.svg)
+- [harrkout/Machine_Learning_Core_STM32WL55](https://github.com/harrkout/Machine_Learning_Core_STM32WL55) - STM32WL55 + LSM6DSOX MLC reference project. ![GitHub stars](https://img.shields.io/github/stars/harrkout/Machine_Learning_Core_STM32WL55.svg)
+- [xiaoweiweiyaya/ESP32_FallDetection](https://github.com/xiaoweiweiyaya/ESP32_FallDetection) - ESP32 fall-detection project. ![GitHub stars](https://img.shields.io/github/stars/xiaoweiweiyaya/ESP32_FallDetection.svg)
+- [Kartik9250/Fall_detection](https://github.com/Kartik9250/Fall_detection) - Arduino/MPU-style threshold fall detection. ![GitHub stars](https://img.shields.io/github/stars/Kartik9250/Fall_detection.svg)
+- [geoseiden/fall-detection-blynk](https://github.com/geoseiden/fall-detection-blynk) - IoT fall detection with Blynk integration. ![GitHub stars](https://img.shields.io/github/stars/geoseiden/fall-detection-blynk.svg)
+- [tensorflow/tflite-micro](https://github.com/tensorflow/tflite-micro) - TensorFlow Lite Micro; `magic_wand` is a useful IMU template for MCU deployment. ![GitHub stars](https://img.shields.io/github/stars/tensorflow/tflite-micro.svg)
 
 ### Foundation Models and Tooling
 
-- [yolish/har-with-imu-transformer](https://github.com/yolish/har-with-imu-transformer) - Transformer backbone for IMU human activity recognition.
-- [Hangwei12358/cross-person-HAR](https://github.com/Hangwei12358/cross-person-HAR) - Cross-person HAR generalization reference.
-- [rh20624/Awesome-IMU-Sensing](https://github.com/rh20624/Awesome-IMU-Sensing) - Broad IMU sensing paper and resource list.
-- [WuShaoa/SensorDataClassification-TCN](https://github.com/WuShaoa/SensorDataClassification-TCN) - FallSeqTCN / TCN-style sensor data classification code.
+- [yolish/har-with-imu-transformer](https://github.com/yolish/har-with-imu-transformer) - Transformer backbone for IMU human activity recognition. ![GitHub stars](https://img.shields.io/github/stars/yolish/har-with-imu-transformer.svg)
+- [Hangwei12358/cross-person-HAR](https://github.com/Hangwei12358/cross-person-HAR) - Cross-person HAR generalization reference. ![GitHub stars](https://img.shields.io/github/stars/Hangwei12358/cross-person-HAR.svg)
+- [rh20624/Awesome-IMU-Sensing](https://github.com/rh20624/Awesome-IMU-Sensing) - Broad IMU sensing paper and resource list. ![GitHub stars](https://img.shields.io/github/stars/rh20624/Awesome-IMU-Sensing.svg)
+- [WuShaoa/SensorDataClassification-TCN](https://github.com/WuShaoa/SensorDataClassification-TCN) - FallSeqTCN / TCN-style sensor data classification code. ![GitHub stars](https://img.shields.io/github/stars/WuShaoa/SensorDataClassification-TCN.svg)
 
 ## Notes
 
