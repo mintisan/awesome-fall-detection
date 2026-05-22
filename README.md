@@ -39,6 +39,7 @@ A curated list of awesome datasets, papers, code repositories, TinyML projects, 
 - [UP-Fall Detection Dataset](https://sites.google.com/up.edu.mx/har-up/) - Multimodal fall dataset with IMUs, ambient sensors, cameras, EEG, and multiple body positions including neck, waist, wrist, ankle, and pocket.
 - [SmartFall Dataset](https://userweb.cs.txstate.edu/~hn12/data/SmartFallDataSet/) - Smartwatch-based wrist accelerometer dataset used by the SmartFall project; includes SmartFall, SmartWatch, and Notch wrist data.
 - [HR + IMU Fall Detection Dataset](https://github.com/nhoyh/HR_IMU_falldetection_dataset) - Wrist IMU and heart-rate/RR data for falls, ADLs, and near-falls, introduced with an IEEE Access 2020 paper.
+- [AybuFall](https://zenodo.org/records/18175644) - IMU dataset with forehead and forearm MetaMotionS sensors at 200 Hz, covering falls, ADLs, and prayer movements for false-positive stress testing.
 - [FallAllD](https://ieee-dataport.org/open-access/fallalld-comprehensive-dataset-human-falls-and-activities-daily-living) - Large multi-position dataset with neck, waist, and wrist LSM9DS1 sensors, available through IEEE DataPort.
 
 ### Common Benchmark Datasets
@@ -70,6 +71,7 @@ A curated list of awesome datasets, papers, code repositories, TinyML projects, 
 - 2019 - [UP-Fall Detection Dataset: A Multimodal Approach](https://www.mdpi.com/1424-8220/19/9/1988) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.3390/s19091988)](https://juleskreuer.eu/citation-badge/)
 - 2021 - [FallAllD: An Open Dataset of Human Falls and Activities of Daily Living for Classical and Deep Learning Applications](https://doi.org/10.1109/JSEN.2020.3018335) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.1109/JSEN.2020.3018335)](https://juleskreuer.eu/citation-badge/)
 - 2021 - [KFall: A Large-Scale Open Motion Dataset and Benchmark Algorithms for Detecting Pre-Impact Fall](https://www.frontiersin.org/articles/10.3389/fnagi.2021.692865/full) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.3389/fnagi.2021.692865)](https://juleskreuer.eu/citation-badge/)
+- 2026 - [An IMU-Based Dataset of Falls, Activities of Daily Living, and Prayer Movements (AybuFall)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12910762/) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.1186/s13104-026-07679-9)](https://juleskreuer.eu/citation-badge/)
 
 ### Sampling Rate and Sensor Placement
 
@@ -86,12 +88,14 @@ A curated list of awesome datasets, papers, code repositories, TinyML projects, 
 - 2017 - [A Comparison of Accuracy of Fall Detection Algorithms](https://doi.org/10.1007/s11517-016-1504-y)
 - 2018 - [Movement Decomposition and Machine Learning-Based Fall Detection Using Wrist Wearable Device](https://doi.org/10.1109/JSEN.2018.2830337)
 - 2019 - [Elderly Fall Detection Using Wearable Sensors: A Low Cost Highly Accurate Algorithm](https://doi.org/10.1109/JSEN.2019.2891128) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.1109/JSEN.2019.2891128)](https://juleskreuer.eu/citation-badge/)
+- 2024 - [Accurate and Efficient Real-World Fall Detection Using Time Series Techniques](https://www.researchgate.net/publication/382940726_Accurate_and_Efficient_Real-World_Fall_Detection_Using_Time_Series_Techniques) - Feature-free time-series classifiers on FARSEEING, FallAllD, and SisFall.
 
 ### Deep Learning
 
 - 2018 - [Online Fall Detection Using Recurrent Neural Networks](https://arxiv.org/abs/1804.04976) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.48550/arXiv.1804.04976)](https://juleskreuer.eu/citation-badge/)
 - 2020 - [A Study on the Application of Convolutional Neural Networks to Fall Detection Evaluated with Multiple Public Datasets](https://www.mdpi.com/1424-8220/20/5/1466) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.3390/s20051466)](https://juleskreuer.eu/citation-badge/)
 - 2021 - [Fall Detection with CNN-Casual LSTM Network](https://www.mdpi.com/2078-2489/12/10/403) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.3390/info12100403)](https://juleskreuer.eu/citation-badge/)
+- 2022 - [Fall Detection Using Multimodal Data](https://link.springer.com/chapter/10.1007/978-3-030-98358-1_31) - UP-Fall sensor, camera, and sensor-camera fusion experiments.
 - 2023 - [Patch-Transformer Network: A Wearable-Sensor-Based Fall Detection Method](https://www.mdpi.com/1424-8220/23/14/6360) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.3390/s23146360)](https://juleskreuer.eu/citation-badge/)
 - 2023 - [PreFallKD: Pre-Impact Fall Detection via CNN-ViT Knowledge Distillation](https://arxiv.org/abs/2303.03634) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.48550/arXiv.2303.03634)](https://juleskreuer.eu/citation-badge/)
 - 2023 - [TinyFallNet: A Lightweight Pre-Impact Fall Detection Model](https://www.mdpi.com/1424-8220/23/20/8459) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.3390/s23208459)](https://juleskreuer.eu/citation-badge/)
@@ -111,9 +115,11 @@ A curated list of awesome datasets, papers, code repositories, TinyML projects, 
 - 2020 - [Cluster-Analysis-Based User-Adaptive Fall Detection Using Fusion of Heart Rate Sensor and Accelerometer](https://doi.org/10.1109/ACCESS.2020.2969389) | [nhoyh/HR_IMU_falldetection_dataset](https://github.com/nhoyh/HR_IMU_falldetection_dataset)
 - 2021 - [FallAllD: An Open Dataset of Human Falls and ADLs](https://doi.org/10.1109/JSEN.2020.3018335) | [aaqdas/FallDetection](https://github.com/aaqdas/FallDetection) (community end-to-end MCU implementation)
 - 2021 - [LIMU-BERT: Unleashing the Potential of Unlabeled Data for IMU Sensing Applications](https://dl.acm.org/doi/10.1145/3485730.3485937) | [dapowan/LIMU-BERT-Public](https://github.com/dapowan/LIMU-BERT-Public)
+- 2022 - [Fall Detection Using Multimodal Data](https://link.springer.com/chapter/10.1007/978-3-030-98358-1_31) | [hoangNguyen210/Fall-Detection-Research-1](https://github.com/hoangNguyen210/Fall-Detection-Research-1)
 - 2022 - [Fall Detection Using Biometric Information Based on Multi-Horizon Forecasting](https://ieeexplore.ieee.org/document/9956568) | [IKKIM00/Fall_Detection_using_multihorizon_forecasting](https://github.com/IKKIM00/Fall_Detection_using_multihorizon_forecasting)
 - 2023 - [PreFallKD: Pre-Impact Fall Detection via CNN-ViT Knowledge Distillation](https://arxiv.org/abs/2303.03634) | [brianchi0607/PREFALLKD](https://github.com/brianchi0607/PREFALLKD-PRE-IMPACT-FALL-DETECTION-VIA-CNN-VIT-KNOWLEDGE-DISTILLATION)
 - 2024 - [Physics Sensor Based Deep Learning Fall Detection System](https://arxiv.org/abs/2403.06994) | [WuShaoa/SensorDataClassification-TCN](https://github.com/WuShaoa/SensorDataClassification-TCN)
+- 2024 - [Accurate and Efficient Real-World Fall Detection Using Time Series Techniques](https://www.researchgate.net/publication/382940726_Accurate_and_Efficient_Real-World_Fall_Detection_Using_Time_Series_Techniques) | [mlgig/ts_fall_detection](https://github.com/mlgig/ts_fall_detection)
 
 ## Code
 
@@ -122,6 +128,8 @@ A curated list of awesome datasets, papers, code repositories, TinyML projects, 
 - [jpnm561/HAR-UP](https://github.com/jpnm561/HAR-UP) - Official UP-Fall Python pipeline for database download, feature extraction, feature selection, cross-validation, and traditional ML training. ![GitHub stars](https://img.shields.io/github/stars/jpnm561/HAR-UP.svg)
 - [heeryoncho/SVD_applied_fall_detection](https://github.com/heeryoncho/SVD_applied_fall_detection) - Author code for SVD + 1D-CNN fall detection on SisFall, UMAFall, and UniMiB. ![GitHub stars](https://img.shields.io/github/stars/heeryoncho/SVD_applied_fall_detection.svg)
 - [IKKIM00/Fall_Detection_using_multihorizon_forecasting](https://github.com/IKKIM00/Fall_Detection_using_multihorizon_forecasting) - Original code for multi-horizon fall forecasting with TFT, 1D-CNN, and LSTM on SmartFall, Notch, DLR, and MobiAct. ![GitHub stars](https://img.shields.io/github/stars/IKKIM00/Fall_Detection_using_multihorizon_forecasting.svg)
+- [hoangNguyen210/Fall-Detection-Research-1](https://github.com/hoangNguyen210/Fall-Detection-Research-1) - Code for UP-Fall multimodal fall detection with sensor features, camera CNNs, and sensor-camera fusion. ![GitHub stars](https://img.shields.io/github/stars/hoangNguyen210/Fall-Detection-Research-1.svg)
+- [mlgig/ts_fall_detection](https://github.com/mlgig/ts_fall_detection) - Code and evaluation results for real-world time-series fall detection on FARSEEING, FallAllD, and SisFall. ![GitHub stars](https://img.shields.io/github/stars/mlgig/ts_fall_detection.svg)
 - [brianchi0607/PREFALLKD](https://github.com/brianchi0607/PREFALLKD-PRE-IMPACT-FALL-DETECTION-VIA-CNN-VIT-KNOWLEDGE-DISTILLATION) - PyTorch implementation of CNN-ViT knowledge distillation for pre-impact fall detection on KFall. ![GitHub stars](https://img.shields.io/github/stars/brianchi0607/PREFALLKD-PRE-IMPACT-FALL-DETECTION-VIA-CNN-VIT-KNOWLEDGE-DISTILLATION.svg)
 - [nhoyh/HR_IMU_falldetection_dataset](https://github.com/nhoyh/HR_IMU_falldetection_dataset) - HR + IMU wrist dataset repository for user-adaptive fall detection. ![GitHub stars](https://img.shields.io/github/stars/nhoyh/HR_IMU_falldetection_dataset.svg)
 - [joaojtmarques/WEDA-FALL](https://github.com/joaojtmarques/WEDA-FALL) - Official WEDA-FALL dataset repository. ![GitHub stars](https://img.shields.io/github/stars/joaojtmarques/WEDA-FALL.svg)
@@ -162,6 +170,7 @@ A curated list of awesome datasets, papers, code repositories, TinyML projects, 
 
 - Many fall-detection papers report excellent results on simulated datasets but do not release official code. Treat community implementations as useful baselines, not exact reproductions.
 - SisFall, KFall, and UniMiB are common academic benchmarks, but they are waist, lower-back, or phone-pocket datasets. Wrist and chest products should validate on native wrist/chest data such as WEDA-FALL, UMAFall, UP-Fall, FallAllD, or self-collected data.
+- AybuFall is useful for false-positive analysis because prayer movements can resemble fall-like posture transitions while still being non-fall activities.
 - For product work, evaluate with leave-one-subject-out and cross-dataset protocols whenever possible. Real-world fall data such as FARSEEING is crucial for false-alarm analysis.
 - Always check dataset licenses and access rules before redistributing raw data.
 
