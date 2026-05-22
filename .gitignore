@@ -1,0 +1,29 @@
+# System/editor noise
+.DS_Store
+._*
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local caches
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Do not commit downloaded datasets, papers, models, or databases
+data/
+datasets/
+papers/
+models/
+*.pdf
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+*.db
+*.sqlite
+*.sqlite3
+*.duckdb
