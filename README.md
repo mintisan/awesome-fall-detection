@@ -12,6 +12,7 @@ A curated list of awesome datasets, papers, code repositories, TinyML projects, 
 - [Dataset](#dataset)
   - [Wrist and Multi-Position Datasets](#wrist-and-multi-position-datasets)
   - [Common Benchmark Datasets](#common-benchmark-datasets)
+  - [Synthetic and Generated Datasets](#synthetic-and-generated-datasets)
   - [Real-World / Restricted Datasets](#real-world--restricted-datasets)
 - [Paper](#paper)
   - [Survey and Evaluation](#survey-and-evaluation)
@@ -51,6 +52,10 @@ A curated list of awesome datasets, papers, code repositories, TinyML projects, 
 - [UR Fall Detection Dataset](http://fenix.ur.edu.pl/~mkepski/ds/uf.html) - Dataset combining accelerometer data and depth camera sequences.
 - [tFall](https://webdiis.unizar.es/~lfdb/tfall/) - Smartphone accelerometer dataset for fall detection in trouser pockets.
 
+### Synthetic and Generated Datasets
+
+- [LLM-Based Synthetic Fall Data](https://github.com/txst-cs-smartfall/LLM-based-synthetic-fall-data-generation) - Synthetic wearable IMU fall data generated and evaluated with LLM and diffusion approaches for fall-detection augmentation.
+
 ### Real-World / Restricted Datasets
 
 - [FARSEEING](https://farseeingresearch.eu/) - Real-world falls from older adults; important for realistic validation, but access is restricted.
@@ -62,6 +67,8 @@ A curated list of awesome datasets, papers, code repositories, TinyML projects, 
 - 2012 - [Evaluation of Accelerometer-Based Fall Detection Algorithms on Real-World Falls](https://doi.org/10.1371/journal.pone.0037062) - Landmark evaluation showing the gap between simulated and real-world falls.
 - 2017 - [Analysis of Public Datasets for Wearable Fall Detection Systems](https://www.mdpi.com/1424-8220/17/7/1513) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.3390/s17071513)](https://juleskreuer.eu/citation-badge/)
 - 2021 - [A Feasibility Study of Smartwatches in Wearable Fall Detection Systems](https://www.mdpi.com/1424-8220/21/6/2254) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.3390/s21062254)](https://juleskreuer.eu/citation-badge/)
+- 2022 - [An Analytical Comparison of Datasets of Real-World and Simulated Falls Intended for the Evaluation of Wearable Fall Alerting Systems](https://doi.org/10.1016/j.measurement.2022.111843) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.1016/j.measurement.2022.111843)](https://juleskreuer.eu/citation-badge/)
+- 2025 - [A Comparative Overview of Technological Advances in Fall Detection Systems for Elderly People](https://www.mdpi.com/1424-8220/25/24/7423) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.3390/s25247423)](https://juleskreuer.eu/citation-badge/)
 
 ### Dataset Papers
 
@@ -79,6 +86,8 @@ A curated list of awesome datasets, papers, code repositories, TinyML projects, 
 - 2016 - [An Analysis on Sensor Locations of the Human Body for Wearable Fall Detection Devices](https://www.mdpi.com/1424-8220/16/8/1161) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.3390/s16081161)](https://juleskreuer.eu/citation-badge/)
 - 2016 - [How Accurately Can Your Wrist Device Recognize Daily Activities and Detect Falls?](https://www.mdpi.com/1424-8220/16/6/800) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.3390/s16060800)](https://juleskreuer.eu/citation-badge/)
 - 2018 - [Analysis of a Smartphone-Based Architecture with Multiple Mobility Sensors for Fall Detection with Supervised Learning](https://www.mdpi.com/1424-8220/18/4/1155) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.3390/s18041155)](https://juleskreuer.eu/citation-badge/)
+- 2018 - [On the Comparison of Wearable Sensor Data Fusion to a Single Sensor Machine Learning Technique in Fall Detection](https://www.mdpi.com/1424-8220/18/2/592) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.3390/s18020592)](https://juleskreuer.eu/citation-badge/)
+- 2022 - [Deep-Learning-Based Signal Enhancement of Low-Resolution Accelerometer for Fall Detection Systems](https://doi.org/10.1109/TCDS.2021.3116228) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.1109/TCDS.2021.3116228)](https://juleskreuer.eu/citation-badge/)
 - 2022 - [A Study of the Influence of the Sensor Sampling Frequency on the Performance of Wearable Fall Detectors](https://www.sciencedirect.com/science/article/pii/S0263224122002226) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.1016/j.measurement.2022.110945)](https://juleskreuer.eu/citation-badge/)
 - 2026 - [The Impact of the Accelerometer Sampling Rate on ML/DL Models in Wearable Fall Detection Systems](https://www.mdpi.com/1424-8220/26/1/162) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.3390/s26010162)](https://juleskreuer.eu/citation-badge/)
 
@@ -86,9 +95,11 @@ A curated list of awesome datasets, papers, code repositories, TinyML projects, 
 
 - 2007 - [Evaluation of a Threshold-Based Tri-Axial Accelerometer Fall Detection Algorithm](https://doi.org/10.1016/j.gaitpost.2006.09.012)
 - 2017 - [A Comparison of Accuracy of Fall Detection Algorithms](https://doi.org/10.1007/s11517-016-1504-y)
+- 2018 - [Real-Life/Real-Time Elderly Fall Detection with a Triaxial Accelerometer](https://www.mdpi.com/1424-8220/18/4/1101) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.3390/s18041101)](https://juleskreuer.eu/citation-badge/)
 - 2018 - [Movement Decomposition and Machine Learning-Based Fall Detection Using Wrist Wearable Device](https://doi.org/10.1109/JSEN.2018.2830337)
 - 2019 - [Elderly Fall Detection Using Wearable Sensors: A Low Cost Highly Accurate Algorithm](https://doi.org/10.1109/JSEN.2019.2891128) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.1109/JSEN.2019.2891128)](https://juleskreuer.eu/citation-badge/)
 - 2024 - [Accurate and Efficient Real-World Fall Detection Using Time Series Techniques](https://www.researchgate.net/publication/382940726_Accurate_and_Efficient_Real-World_Fall_Detection_Using_Time_Series_Techniques) - Feature-free time-series classifiers on FARSEEING, FallAllD, and SisFall.
+- 2025 - [A Feature Engineering Method for Smartphone-Based Fall Detection](https://www.mdpi.com/1424-8220/25/20/6500) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.3390/s25206500)](https://juleskreuer.eu/citation-badge/)
 
 ### Deep Learning
 
@@ -98,15 +109,23 @@ A curated list of awesome datasets, papers, code repositories, TinyML projects, 
 - 2022 - [Fall Detection Using Multimodal Data](https://link.springer.com/chapter/10.1007/978-3-030-98358-1_31) - UP-Fall sensor, camera, and sensor-camera fusion experiments.
 - 2023 - [Patch-Transformer Network: A Wearable-Sensor-Based Fall Detection Method](https://www.mdpi.com/1424-8220/23/14/6360) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.3390/s23146360)](https://juleskreuer.eu/citation-badge/)
 - 2023 - [PreFallKD: Pre-Impact Fall Detection via CNN-ViT Knowledge Distillation](https://arxiv.org/abs/2303.03634) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.48550/arXiv.2303.03634)](https://juleskreuer.eu/citation-badge/)
+- 2023 - [Experimental Study: Deep Learning-Based Fall Monitoring among Older Adults with Skin-Wearable Electronics](https://www.mdpi.com/1424-8220/23/8/3983) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.3390/s23083983)](https://juleskreuer.eu/citation-badge/)
+- 2023 - [Sensitivity Analysis of LSTM Networks for Fall Detection Wearable Sensors](https://doi.org/10.1109/CIoT57267.2023.10084906) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.1109/CIoT57267.2023.10084906)](https://juleskreuer.eu/citation-badge/)
 - 2023 - [TinyFallNet: A Lightweight Pre-Impact Fall Detection Model](https://www.mdpi.com/1424-8220/23/20/8459) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.3390/s23208459)](https://juleskreuer.eu/citation-badge/)
 - 2024 - [Physics Sensor Based Deep Learning Fall Detection System](https://arxiv.org/abs/2403.06994) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.48550/arXiv.2403.06994)](https://juleskreuer.eu/citation-badge/)
+- 2025 - [AI-Generated Fall Data: Assessing LLMs and Diffusion Model for Wearable Fall Detection](https://www.mdpi.com/1424-8220/25/16/5144) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.3390/s25165144)](https://juleskreuer.eu/citation-badge/)
+- 2025 - [Beyond Falls: A Hybrid CNN-LSTM-Attention Framework for Pre-, Transition-, and Post-Fall Detection With Wearable Inertial Sensors](https://doi.org/10.1109/ACCESS.2025.3641198) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.1109/ACCESS.2025.3641198)](https://juleskreuer.eu/citation-badge/)
+- 2026 - MadgwickFall-Net: A Lightweight Dual-Frame Feature Fusion Network for Pre-Impact Fall Detection Using Wearable IMUs - Dual-frame body/global IMU fusion for KFall pre-impact fall detection; public DOI/URL not found in the local copy.
 
 ### Edge and TinyML
 
 - 2020 - [Deep Learning Based Fall Detection Algorithms for Embedded Systems, Smartwatches, and IoT Devices](https://www.mdpi.com/2227-7080/8/4/72) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.3390/technologies8040072)](https://juleskreuer.eu/citation-badge/)
+- 2024 - [Analyzing and Comparing Deep Learning Models on an ARM 32-bit Microcontroller for Pre-Impact Fall Detection](https://doi.org/10.1109/JSEN.2024.3364249) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.1109/JSEN.2024.3364249)](https://juleskreuer.eu/citation-badge/)
 - 2024 - [Edge Computing Transformers for Fall Detection in Older Adults](https://doi.org/10.1142/S0129065724500266) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.1142/S0129065724500266)](https://juleskreuer.eu/citation-badge/)
 - 2025 - [Energy-Efficient Fall-Detection System Using LoRa and Hybrid Algorithms](https://www.mdpi.com/2313-7673/10/5/313) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.3390/biomimetics10050313)](https://juleskreuer.eu/citation-badge/)
+- 2025 - [IMU Sensor Based Expandable Fall Detection System Design](https://doi.org/10.54370/ordubtd.1658926) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.54370/ordubtd.1658926)](https://juleskreuer.eu/citation-badge/)
 - 2026 - [A Wearable System for Real-Time Fall Detection on Resource-Constrained Devices](https://doi.org/10.1109/JIOT.2025.3636894)
+- 2026 - [A Pre-impact Fall Algorithm Based on a Lightweight Re-Parameters-Parallel Convolutional-TCN](https://doi.org/10.13164/re.2026.0084) [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.13164/re.2026.0084)](https://juleskreuer.eu/citation-badge/)
 
 ### PaperWithCode
 
@@ -117,9 +136,11 @@ A curated list of awesome datasets, papers, code repositories, TinyML projects, 
 - 2021 - [LIMU-BERT: Unleashing the Potential of Unlabeled Data for IMU Sensing Applications](https://dl.acm.org/doi/10.1145/3485730.3485937) | [dapowan/LIMU-BERT-Public](https://github.com/dapowan/LIMU-BERT-Public)
 - 2022 - [Fall Detection Using Multimodal Data](https://link.springer.com/chapter/10.1007/978-3-030-98358-1_31) | [hoangNguyen210/Fall-Detection-Research-1](https://github.com/hoangNguyen210/Fall-Detection-Research-1)
 - 2022 - [Fall Detection Using Biometric Information Based on Multi-Horizon Forecasting](https://ieeexplore.ieee.org/document/9956568) | [IKKIM00/Fall_Detection_using_multihorizon_forecasting](https://github.com/IKKIM00/Fall_Detection_using_multihorizon_forecasting)
+- 2023 - [Sensitivity Analysis of LSTM Networks for Fall Detection Wearable Sensors](https://doi.org/10.1109/CIoT57267.2023.10084906) | [SCorreiaPT/LSTM_SensitivityFallDetection](https://github.com/SCorreiaPT/LSTM_SensitivityFallDetection)
 - 2023 - [PreFallKD: Pre-Impact Fall Detection via CNN-ViT Knowledge Distillation](https://arxiv.org/abs/2303.03634) | [brianchi0607/PREFALLKD](https://github.com/brianchi0607/PREFALLKD-PRE-IMPACT-FALL-DETECTION-VIA-CNN-VIT-KNOWLEDGE-DISTILLATION)
 - 2024 - [Physics Sensor Based Deep Learning Fall Detection System](https://arxiv.org/abs/2403.06994) | [WuShaoa/SensorDataClassification-TCN](https://github.com/WuShaoa/SensorDataClassification-TCN)
 - 2024 - [Accurate and Efficient Real-World Fall Detection Using Time Series Techniques](https://www.researchgate.net/publication/382940726_Accurate_and_Efficient_Real-World_Fall_Detection_Using_Time_Series_Techniques) | [mlgig/ts_fall_detection](https://github.com/mlgig/ts_fall_detection)
+- 2025 - [AI-Generated Fall Data: Assessing LLMs and Diffusion Model for Wearable Fall Detection](https://www.mdpi.com/1424-8220/25/16/5144) | [txst-cs-smartfall/LLM-based-synthetic-fall-data-generation](https://github.com/txst-cs-smartfall/LLM-based-synthetic-fall-data-generation)
 
 ## Code
 
@@ -134,6 +155,7 @@ A curated list of awesome datasets, papers, code repositories, TinyML projects, 
 - [nhoyh/HR_IMU_falldetection_dataset](https://github.com/nhoyh/HR_IMU_falldetection_dataset) - HR + IMU wrist dataset repository for user-adaptive fall detection. ![GitHub stars](https://img.shields.io/github/stars/nhoyh/HR_IMU_falldetection_dataset.svg)
 - [joaojtmarques/WEDA-FALL](https://github.com/joaojtmarques/WEDA-FALL) - Official WEDA-FALL dataset repository. ![GitHub stars](https://img.shields.io/github/stars/joaojtmarques/WEDA-FALL.svg)
 - [dapowan/LIMU-BERT-Public](https://github.com/dapowan/LIMU-BERT-Public) - Public LIMU-BERT implementation for self-supervised IMU representation learning. ![GitHub stars](https://img.shields.io/github/stars/dapowan/LIMU-BERT-Public.svg)
+- [SCorreiaPT/LSTM_SensitivityFallDetection](https://github.com/SCorreiaPT/LSTM_SensitivityFallDetection) - MATLAB author code for LSTM layer and cell-size sensitivity analysis in wearable fall detection. ![GitHub stars](https://img.shields.io/github/stars/SCorreiaPT/LSTM_SensitivityFallDetection.svg)
 
 ### Reproductions and Baselines
 
@@ -147,6 +169,10 @@ A curated list of awesome datasets, papers, code repositories, TinyML projects, 
 - [chizhanyuefeng/Realtime-Fall-Detection-for-RNN](https://github.com/chizhanyuefeng/Realtime-Fall-Detection-for-RNN) - Real-time RNN fall detection reference. ![GitHub stars](https://img.shields.io/github/stars/chizhanyuefeng/Realtime-Fall-Detection-for-RNN.svg)
 - [IKKIM00/fall-detection-and-predction-using-GRU-and-LSTM-with-Transfer-Learning](https://github.com/IKKIM00/fall-detection-and-predction-using-GRU-and-LSTM-with-Transfer-Learning) - SmartFall to MobiAct GRU/LSTM transfer-learning experiments. ![GitHub stars](https://img.shields.io/github/stars/IKKIM00/fall-detection-and-predction-using-GRU-and-LSTM-with-Transfer-Learning.svg)
 - [xushige/HAR-Dataset-Preprocess](https://github.com/xushige/HAR-Dataset-Preprocess) - PyTorch preprocessing and model infrastructure for UniMiB, PAMAP2, WISDM, UCI-HAR, USC-HAD, and other HAR datasets. ![GitHub stars](https://img.shields.io/github/stars/xushige/HAR-Dataset-Preprocess.svg)
+- [hoangNguyen210/Fall-Detection-Research-2](https://github.com/hoangNguyen210/Fall-Detection-Research-2) - UP-Fall camera-data continuation with preprocessing notebooks, mixture-of-experts models, and 3D-CNN experiments. ![GitHub stars](https://img.shields.io/github/stars/hoangNguyen210/Fall-Detection-Research-2.svg)
+- [ankit1997/Fall-Detection-using-CNN](https://github.com/ankit1997/Fall-Detection-using-CNN) - TensorFlow CNN and dense baseline for accelerometer/gyroscope fall-vs-non-fall sensor data. ![GitHub stars](https://img.shields.io/github/stars/ankit1997/Fall-Detection-using-CNN.svg)
+- [hwixley/Fall-Detection-Deep-Learning](https://github.com/hwixley/Fall-Detection-Deep-Learning) - PyTorch LSTM and ResNet fall-detection pipeline with sliding-window preprocessing and TFLite export. ![GitHub stars](https://img.shields.io/github/stars/hwixley/Fall-Detection-Deep-Learning.svg)
+- [AdrianNunez/transformer-based-fall-detection](https://github.com/AdrianNunez/transformer-based-fall-detection) - Transformer-based UP-Fall video fall-detection baseline using camera-frame inputs. ![GitHub stars](https://img.shields.io/github/stars/AdrianNunez/transformer-based-fall-detection.svg)
 
 ### Embedded and TinyML
 
@@ -165,6 +191,7 @@ A curated list of awesome datasets, papers, code repositories, TinyML projects, 
 - [Hangwei12358/cross-person-HAR](https://github.com/Hangwei12358/cross-person-HAR) - Cross-person HAR generalization reference. ![GitHub stars](https://img.shields.io/github/stars/Hangwei12358/cross-person-HAR.svg)
 - [rh20624/Awesome-IMU-Sensing](https://github.com/rh20624/Awesome-IMU-Sensing) - Broad IMU sensing paper and resource list. ![GitHub stars](https://img.shields.io/github/stars/rh20624/Awesome-IMU-Sensing.svg)
 - [WuShaoa/SensorDataClassification-TCN](https://github.com/WuShaoa/SensorDataClassification-TCN) - FallSeqTCN / TCN-style sensor data classification code. ![GitHub stars](https://img.shields.io/github/stars/WuShaoa/SensorDataClassification-TCN.svg)
+- [txst-cs-smartfall/LLM-based-synthetic-fall-data-generation](https://github.com/txst-cs-smartfall/LLM-based-synthetic-fall-data-generation) - Synthetic fall-data generation resources released with the LLM and diffusion wearable fall-detection study. ![GitHub stars](https://img.shields.io/github/stars/txst-cs-smartfall/LLM-based-synthetic-fall-data-generation.svg)
 
 ## Notes
 
