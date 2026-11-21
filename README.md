@@ -55,6 +55,7 @@ A curated list of awesome datasets, papers, code repositories, TinyML projects, 
 ### Synthetic and Generated Datasets
 
 - [LLM-Based Synthetic Fall Data](https://github.com/txst-cs-smartfall/LLM-based-synthetic-fall-data-generation) - Synthetic wearable IMU fall data generated and evaluated with LLM and diffusion approaches for fall-detection augmentation.
+- [Xentim Fall Detection Sample](https://huggingface.co/datasets/xentim/fall-detection-sample) - Synthetic camera-view (not wearable) skeleton data: 384 sequences from 32 simulated falls and non-fall look-alikes, 12 virtual cameras per event, 17 COCO keypoints per frame. Free sample for internal evaluation behind an access form; the full dataset is commercial.
 
 ### Real-World / Restricted Datasets
 
