@@ -43,6 +43,10 @@ A curated list of awesome datasets, papers, code repositories, TinyML projects, 
 - [AybuFall](https://zenodo.org/records/18175644) - IMU dataset with forehead and forearm MetaMotionS sensors at 200 Hz, covering falls, ADLs, and prayer movements for false-positive stress testing.
 - [FallAllD](https://ieee-dataport.org/open-access/fallalld-comprehensive-dataset-human-falls-and-activities-daily-living) - Large multi-position dataset with neck, waist, and wrist LSM9DS1 sensors, available through IEEE DataPort.
 
+### Commercial Device Reference Data
+ 
+- [KeepOkey Fall Alert Index](https://doi.org/10.5281/zenodo.24417882) - Documentary reference data on commercial fall-alert devices and services, including published response and accuracy claims; not sensor recordings or measured detection performance.
+
 ### Common Benchmark Datasets
 
 - [SisFall](http://sistemic.udea.edu.co/en/investigacion/proyectos/english-falls/) - Widely used waist-mounted accelerometer/gyroscope benchmark with simulated falls and ADLs.
